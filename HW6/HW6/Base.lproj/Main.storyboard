@@ -40,31 +40,31 @@
                                                     <rect key="frame" x="20" y="11" width="374" height="198"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="qCm-14-Pug">
-                                                            <rect key="frame" x="10" y="10" width="288" height="20.5"/>
+                                                            <rect key="frame" x="10" y="10" width="270.5" height="18"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trending This Week in" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vha-av-yWF">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="151.5" height="20.5"/>
-                                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="149.5" height="18"/>
+                                                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Historical Fiction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="anT-T2-a9S">
-                                                                    <rect key="frame" x="154.5" y="0.0" width="133.5" height="20.5"/>
-                                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                                    <rect key="frame" x="152.5" y="0.0" width="118" height="18"/>
+                                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                                                     <color key="textColor" name="kategori_color"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                             </subviews>
                                                         </stackView>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book1" translatesAutoresizingMaskIntoConstraints="NO" id="f6Q-dO-lyx">
-                                                            <rect key="frame" x="13" y="40.5" width="74" height="110"/>
+                                                            <rect key="frame" x="13" y="38" width="74" height="110"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="74" id="Fiy-s8-S3e"/>
                                                                 <constraint firstAttribute="height" constant="110" id="pOl-Ex-7SC"/>
                                                             </constraints>
                                                         </imageView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="np5-Tp-AV5">
-                                                            <rect key="frame" x="102" y="40.5" width="242" height="130"/>
+                                                            <rect key="frame" x="102" y="38" width="242" height="130"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feline Philosophy: Cats and the" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGn-7K-Lbe">
                                                                     <rect key="frame" x="0.0" y="0.0" width="242" height="19"/>
@@ -72,7 +72,7 @@
                                                                         <constraint firstAttribute="width" constant="242" id="o6K-mL-imT"/>
                                                                     </constraints>
                                                                     <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
-                                                                    <nil key="textColor"/>
+                                                                    <color key="textColor" red="0.046578485091898124" green="0.046775504011439276" blue="0.047366560770062738" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by N.H. Kleinbaum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifL-DV-8WH">
